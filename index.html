@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+
+
+    :root {
+        --color-one: #9f0000;
+        --color-two: #cd6a00;
+    }
+
+    .test1 {
+        color: var(--color-one);
+        background: var(--color-two);
+    }
+
+    .menu-type-one {
+
+        display: flex;
+        list-style: none;
+    
+    }
+
+    .menu-type-one li {
+        position: relative;
+        margin: 0 10px;
+
+    }
+
+    .menu-type-one > li > a {
+        color: red!important;
+    }
+
+    .menu-type-one li a {
+        color: #9b5e02;
+    }
+
+    /* .menu-type-one li a {
+        color: red;
+    } */
+
+    .menu-type-one li ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        padding: 0;
+        width: 100px;
+    }
+
+    .menu-type-one li ul {
+        display: none;
+    }
+    
+    .menu-type-one li:hover ul {
+        display: block;
+    }
+
+    .menu-select1 {
+        font-size: 20px;
+    }
+
+    .menu-select1 li:nth-child(2n+2) {
+        color: royalblue;
+
+    }
+
+    </style>
+    <ul class="menu-type-one">
+        <li><a href="#">Muc 1</a></li>
+        <li><a href="">Muc 2</a>
+        <ul>
+            <li><a href="#">Muc 2-1</a></li>
+            <li><a href="#">Muc 2-2</a></li>
+            <li><a href="#">Muc 2-3</a></li>
+        </ul>
+        </li>
+        <li><a href="#">Muc 3</a></li>
+    </ul>
+
+
+
+    <ul class="menu-select1">
+        <li>Muc 1</li>
+        <li>Muc 2</li>
+        <li>Muc 3</li>
+        <li>Muc 4</li>
+        <li>Muc 5</li>
+        <li>Muc 6</li>
+    </ul>
+
+
+    <h1 class="test1">Day la dong test</h1>
+</body>
+</html>

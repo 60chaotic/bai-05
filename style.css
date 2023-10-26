@@ -1,0 +1,44 @@
+/* ul {
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+.table-1 {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.table-1 th, .table-1 td {
+    border: 1px solid #ddd;
+    padding: 10px;
+
+}
+
+.table-1 th {
+    background: orange;
+    color: white;
+} */
+
+/* ---table-2--- */
+/* .table-2 {
+    border: 1px solid blueviolet;
+    border-collapse: collapse;
+}
+
+.table-2 th, .table-2 td {
+    border: 1px solid black;
+    padding: 20px;
+    vertical-align: middle;
+} */
+
+/* ---table-3--- */
+.table-3 {
+    /* border: 1px solid #ddd; */
+    border-collapse: collapse;
+}
+
+.table-3 th, .table-3 td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    vertical-align: middle;
+}
